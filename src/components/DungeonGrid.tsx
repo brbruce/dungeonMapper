@@ -21,6 +21,9 @@ export default function DungeonGrid({ width, height }: DungeonGridProps) {
     switch (type) {
       case 'wall': return '#666'
       case 'door': return '#8B4513'
+      case 'floor': return '#C0A080'
+      case 'stairsUp': return '#FF6B6B'
+      case 'stairsDown': return '#4ECDC4'
       case 'treasure': return '#FFD700'
       case 'npc': return '#FF69B4'
       case 'spawn': return '#00FF00'

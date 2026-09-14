@@ -1,6 +1,6 @@
 import { create } from 'zustand'
 
-export type CellType = 'empty' | 'wall' | 'door' | 'treasure' | 'npc' | 'spawn'
+export type CellType = 'empty' | 'wall' | 'door' | 'treasure' | 'npc' | 'spawn' | 'floor' | 'stairsUp' | 'stairsDown'
 
 export interface Cell {
   type: CellType

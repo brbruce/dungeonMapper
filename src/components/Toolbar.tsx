@@ -5,6 +5,9 @@ const TOOLS: { type: CellType; label: string }[] = [
   { type: 'empty', label: 'Eraser' },
   { type: 'wall', label: 'Wall' },
   { type: 'door', label: 'Door' },
+  { type: 'floor', label: 'Floor' },
+  { type: 'stairsUp', label: 'Stairs ↑' },
+  { type: 'stairsDown', label: 'Stairs ↓' },
   { type: 'treasure', label: 'Treasure' },
   { type: 'npc', label: 'NPC' },
   { type: 'spawn', label: 'Spawn' },
@@ -19,6 +22,9 @@ export default function Toolbar() {
     switch (type) {
       case 'wall': return '#666'
       case 'door': return '#8B4513'
+      case 'floor': return '#C0A080'
+      case 'stairsUp': return '#FF6B6B'
+      case 'stairsDown': return '#4ECDC4'
       case 'treasure': return '#FFD700'
       case 'npc': return '#FF69B4'
       case 'spawn': return '#00FF00'
