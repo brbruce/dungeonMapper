@@ -1,0 +1,81 @@
+.toolbar {
+  width: 200px;
+  background-color: #0d0d0d;
+  border-right: 2px solid #444;
+  padding: 1rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.tools-section h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #888;
+}
+
+.tool-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.tool-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background-color: #1a1a1a;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: #e0e0e0;
+  font-size: 0.9rem;
+  justify-content: flex-start;
+}
+
+.tool-button:hover {
+  background-color: #2a2a2a;
+}
+
+.tool-button.active {
+  background-color: #2a2a2a;
+}
+
+.color-indicator {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.actions-section {
+  margin-top: auto;
+}
+
+.actions-section h3 {
+  margin: 0 0 1rem 0;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: #888;
+}
+
+.clear-button {
+  width: 100%;
+  padding: 0.6rem;
+  background-color: #8B0000;
+  border: 1px solid #FF6347;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+.clear-button:hover {
+  background-color: #A00000;
+  border-color: #FF7F50;
+}
