@@ -4,8 +4,8 @@ import Toolbar from './components/Toolbar'
 import './App.css'
 
 function App() {
-  const [gridWidth, setGridWidth] = useState(20)
-  const [gridHeight, setGridHeight] = useState(20)
+  const [gridWidth] = useState(20)
+  const [gridHeight] = useState(20)
 
   return (
     <div className="app">
