@@ -26,7 +26,7 @@ npm install
 ### Development
 
 ```bash
-npm run dev
+XXX npm run dev - Gets an error because of spaces in the directory names
 ```
 
 This will start the dev server at `http://localhost:5173` and open it in your default browser.
@@ -34,7 +34,16 @@ This will start the dev server at `http://localhost:5173` and open it in your de
 ### Build
 
 ```bash
-npm run build
+
+XXX - npm run build - Gets an error because of spaces in the directory names
+
+./node_modules/.bin/tsc -b && ./node_modules/.bin/vite build
+```
+
+### Run
+
+```bash
+./node_modules/.bin/vite
 ```
 
 This creates an optimized production build in the `dist` directory.
